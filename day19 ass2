@@ -1,0 +1,20 @@
+#include<stdio.h>
+ main()
+ {
+ 	int n,i,k,esum,osum,d;
+ 	esum=osum=0;
+ 	scanf("%d",&n);//10
+ 	i=1;
+ 	while(i<=n)
+ 	{
+ 		if(i%2==0)//2 4 6 8 10
+ 		esum=esum+i;//esum=30
+ 		else
+ 		osum=osum+i;//1 3 5 7 9    osum=25
+ 		i++;
+	 }
+	 printf("Even sum=%d\n",esum);
+	 printf("Odd sum=%d\n",osum);
+	 d=esum-osum;
+	 printf("difference=%d",d);
+ }
