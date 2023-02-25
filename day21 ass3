@@ -1,0 +1,7 @@
+#include<stdio.h>
+main()
+{
+	int n,k;
+	for(n=1,k=4;n<=4,k>=1;n++,k--)
+	printf("%d %d\n",n,k);
+}
